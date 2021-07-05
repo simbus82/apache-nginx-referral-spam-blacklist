@@ -1,0 +1,39 @@
+{
+  "name": "stevie-ray/referrer-spam-blocker",
+  "description": "Apache, Nginx, IIS, uWSGI & Varnish blacklist plus Google Analytics segment to prevent referrer spam traffic",
+  "keywords": [
+    "spam",
+    "blacklist",
+    "blocker",
+    "referrer",
+    "analytics",
+    "apache",
+    "nginx",
+    "varnish",
+    "iis",
+    "uwsgi"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Stevie-Ray Hartog",
+      "email": "mail@stevie-ray.nl",
+      "homepage": "https://stevie-ray.nl"
+    }
+  ],
+  "require": {
+    "php": ">=7.2"
+  },
+  "require-dev": {
+    "algo26-matthias/idna-convert": "^3.0.5"
+  },
+  "suggest":  {
+    "ext-mbstring": "Install ext/mbstring for using input / output other than UTF-8 or ISO-8859-1",
+    "ext-iconv": "Install ext/iconv for using input / output other than UTF-8 or ISO-8859-1"
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "StevieRay\\": "src"
+    }
+  }
+}
